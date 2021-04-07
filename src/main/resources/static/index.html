@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Oblig 3</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1 class="my-4">Bestilling av kinobilletter</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <!-- Input area -->
+        <div class="col-md-5">
+            <form class="form">
+                <!-- Drop-down list to choose a film -->
+                <div class="form-group">
+                    <label for="innFilm"><b>Velg film: </b></label>
+                    <select id="innFilm" class="form-control">
+                        <option value="">-- Velg film her --</option>
+                        <option value="film1">The Godfather</option>
+                        <option value="film2">The Godfather Part II</option>
+                        <option value="film3">The Godfather Part III</option>
+                    </select>
+                    <span id="errorFilm" class="text-danger"></span>
+                </div>
+
+                <!-- Input fields & purchase button -->
+                <div class="form-group">
+                    <label for="innAntall"><b>Antall</b></label>
+                    <input type="text" id="innAntall" maxlength="2" size="3" class="form-control" />
+                    <span id="errorAntall" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="innFornavn"><b>Fornavn</b></label>
+                    <input type="text" id="innFornavn" class="form-control" />
+                    <span id="errorFornavn" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="innFornavn"><b>Etternavn</b></label>
+                    <input type="text" id="innEtternavn" class="form-control" />
+                    <span id="errorEtternavn" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="innFornavn"><b>Telefonnummer</b></label>
+                    <input type="text" id="innTelefonnr" class="form-control" />
+                    <span id="errorTelefonnr" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="innFornavn"><b>Epost</b></label>
+                    <input type="text" id="innEpost" class="form-control" />
+                    <span id="errorEpost" class="text-danger"></span>
+                </div>
+            </form>
+            <!-- Button to register the entered info -->
+            <td><button id="registrer" class="btn btn-primary">Kjøp billett</button></td>
+        </div>
+
+        <!-- Displaying area -->
+        <div class="col-md-7">
+            <h2>Alle billetter</h2>
+            <div id="visBilletter" class="table-responsive table table-striped"></div>
+            <!-- Button to delete registered tickets -->
+            <button id="slett" class="btn btn-danger">Slett alle billettene</button>
+        </div>
+    </div>
+</div>
+
+<!-- External JS file -->
+<script src="index.js"></script>
+</body>
+</html>
