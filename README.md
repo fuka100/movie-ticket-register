@@ -6,7 +6,7 @@ GitHub brukernavn: fuka100
 
 GitHub repo URL: https://github.com/DATA1700/oblig-3-fuka100
 
-URL til Heroku app:
+URL til Heroku app: https://oblig-3-fuka100.herokuapp.com/
 
 Fullt navn: Fuka Nishikawa
 
