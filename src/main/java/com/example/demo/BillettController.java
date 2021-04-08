@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class BillettController {
@@ -13,24 +13,22 @@ public class BillettController {
     @Autowired
     BillettRepository rep;
 
-    // New ArrayList
-    private final ArrayList<Billett> billettListe = new ArrayList<>();
-
-    // Store in the ArrayList
+    // Store new ticket info
     @PostMapping("/lagre")
-    public void lagreBillett(Billett innBillett){
-        billettListe.add(innBillett);
+    public void lagreBillett(Billett innBillett) {
+        rep.lagreBillett(innBillett);
     }
 
-    // Return elements stored in the ArrayList
+    // Return stored tickets
     @GetMapping("/hent")
-    public ArrayList<Billett> hentBillett(){
-        return billettListe;
+    public List<Billett> hentBillett() {
+        return rep.hentBillett();
     }
 
-    // Empty the ArrayList
+    // Delete the tickets
     @GetMapping("/slett")
-    public void slettBillett(){
-        billettListe.clear();
+    public void slettBillett() {
+        rep.slettBillett();
     }
+
 }
