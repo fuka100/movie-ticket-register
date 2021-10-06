@@ -1,4 +1,4 @@
-Web Programming (DATA1700)
+JS application for ordering cinema tickets
 =======
 
 - This application is course assignment for Web Programming (DATA1700) at OsloMet, spring 2021. <br>
