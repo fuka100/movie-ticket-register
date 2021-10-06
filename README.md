@@ -9,7 +9,7 @@ Web Programming (DATA1700)
 
 
 - Description of this application: <br>
-This application is for ordering film tickets.
+This application is for ordering cinema tickets.
 The input data is stored in tabular format in a relational database using Spring Boot and Java.
 The client side is styled with Bootstrap.
 You select a film title from the drop-down list and enter the required information in the blank fields.
