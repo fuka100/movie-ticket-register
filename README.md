@@ -1,7 +1,7 @@
-JS application for ordering cinema tickets
+JS application for ordering movie tickets
 =======
 
-- This application is course assignment for [Web Programming (DATA1700)](https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST) 
+- This application is course assignment for [DATA1700 - Web Programming](https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST) 
 at OsloMet, spring 2021. 
 
 
@@ -9,10 +9,10 @@ at OsloMet, spring 2021.
 
 
 - Description of this application: <br>
-This application is for ordering cinema tickets.
+This application is for ordering movie tickets.
 The input data is stored in tabular format in a relational database using Spring Boot and Java.
 The client side is styled with Bootstrap.
-You select a film title from the drop-down list and enter the required information in the blank fields.
+You can select a film title from the drop-down list and enter the required information in the blank fields.
 When the "Kjøp billett (Buy ticket)" button is pressed, all the information about the tickets 
 you have ordered will be displayed under "Alle billetter (All tickets)".
 At this time, the ticket information is sorted alphabetically by last name.
