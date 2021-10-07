@@ -1,8 +1,8 @@
 JS application for ordering cinema tickets
 =======
 
-- This application is course assignment for Web Programming (DATA1700) at OsloMet, spring 2021. <br>
-  Course description: https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST
+- This application is course assignment for [Web Programming (DATA1700)](https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST) 
+at OsloMet, spring 2021. 
 
 
 - URL to Heroku app: https://oblig-3-fuka100.herokuapp.com/
