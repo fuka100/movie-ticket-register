@@ -1,14 +1,14 @@
 JS application for ordering movie tickets
 =======
 
-- This application is course assignment for [DATA1700 - Web Programming](https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST) 
+- Course assignment for [DATA1700 - Web Programming](https://student.oslomet.no/en/studier/-/studieinfo/emne/DATA1700/2021/H%C3%98ST) 
 at OsloMet, spring 2021. 
 
 
-- URL to Heroku app: https://oblig-3-fuka100.herokuapp.com/
+- **URL to Heroku app:** https://oblig-3-fuka100.herokuapp.com/
 
 
-- Description of this application: <br>
+- **Description of this application:** <br>
 This application is for ordering movie tickets.
 The input data is stored in tabular format in a relational database using Spring Boot and Java.
 The client side is styled with Bootstrap.
